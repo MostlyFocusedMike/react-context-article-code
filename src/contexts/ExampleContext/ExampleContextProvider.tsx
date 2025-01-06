@@ -3,7 +3,7 @@ import ExampleContext, { ExampleContextType } from '.';
 
 type Props = { children: ReactNode }
 
-export default function AppContextProvider({ children }: Props) {
+export default function ExampleContextProvider({ children }: Props) {
   const [example, setExample] = useState('I am the context value');
 
   const context: ExampleContextType = { setExample, example };

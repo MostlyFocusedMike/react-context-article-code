@@ -5,6 +5,6 @@ export type ExampleContextType = {
   setExample: Dispatch<SetStateAction<string>>;
 }
 
-const exampleContext = createContext<ExampleContextType>({} as ExampleContextType);
+const ExampleContext = createContext<ExampleContextType>({} as ExampleContextType);
 
-export default exampleContext;
+export default ExampleContext;
